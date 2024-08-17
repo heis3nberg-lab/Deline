@@ -27,7 +27,11 @@ Here is how you can use Deline to filter your logs:
 ```bash
 python deline.py --string 'target_string' --input input_file.txt --output output_file.txt
 ```
+To see a full list of available options:
 
+```bash
+python deline.py --help
+```
 ### Arguments
 
 - `-str`, `--string`: The string to search for within the log file. Lines containing this string will be removed from the output.
